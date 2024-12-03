@@ -1,3 +1,5 @@
+# Taylor Lee calculator from GitHub Copilot.
+
 
 def add(x, y):
     return x + y
@@ -14,7 +16,9 @@ def divide(x, y):
     return x / y
 
 def calculator():
+    # This finished variable was added by Taylor Lee.
     finished = False
+    # This while loop was added by Taylor Lee.
     while not finished:
         user_name = input("Hello, what is your name?: ")
         print(f"Hello {user_name}, welcome to Calculator!")
@@ -43,12 +47,12 @@ def calculator():
                 print(f"{num1} / {num2} = {divide(num1, num2)}")
         else:
             print("Invalid input")
-        again = input('Do you want another calculation? (y/n): ')
+        again = input(f'{user_name}, do you want another calculation? (y/n): ')
         if again == 'y':
             finished = False
         else:
             finished = True
-            print('Thank you!')
+            print(f'Goodbye, {user_name}!')
 
 if __name__ == "__main__":
     calculator()
