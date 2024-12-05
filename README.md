@@ -11,3 +11,7 @@ I was unable to run the script generated with Github Copilot on my Windows machi
 #### operator-precedence.py
 
 I didn't use parentheses because I thought this would defeat the point of the exercise. Sorry I didn't have this done before Midnight last night; I had to go back into coursera to find it.
+
+#### converter.py
+
+Got help from GitHub Copilot.
