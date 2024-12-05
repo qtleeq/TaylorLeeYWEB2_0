@@ -1,5 +1,3 @@
-# Hi Dani
-
 ## YWEB 2.0 Assignments
 
 #### calculator.py
